@@ -1,0 +1,116 @@
+body {
+    font-size: 18px;
+    background-image: url(1.jpg);
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    background-color: whitesmoke;
+    opacity: 0.93;
+    color: black;
+}
+
+.header {
+    padding: 20px;
+}
+
+.header .namaweb {
+    font-size: 60px;
+    font-family: 'Lucida Sans';
+    text-align: center;
+}
+.judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top:  50px;
+    margin-left: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: palevioletred;
+    padding: 5px;
+}
+
+.header a:hover {
+    background-color: lightgrey;
+    color: white;
+}
+
+.hero {
+    height: 400px;
+    margin: auto;
+    background-image: url(2.jpg);
+    background-position: 0 -180px;
+    border-bottom: 5px solid indianred;
+    border-top: 5px solid indianred;
+}
+
+.content .Judul {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content .penulis {
+    font-size: 15px;
+    margin-top: -5px;
+    padding: 0 2em;
+}
+
+.content .abstrak {
+    text-align: justify; 
+    text-indent: 3em; 
+    padding: 0 4em;
+}
+
+.content ol {
+    padding: 0 4em 0 5em;
+}
+
+.content .a, .b, .c, .d, .e {
+    text-align: justify;
+    padding: -4em;
+}
+
+.content .x {
+    text-align: left;
+    padding: 0 4em;
+}
+
+.content .y {
+    text-align: center;
+    padding: 0 4em;
+}
+
+.content .p1, .p2, .p3, .p4, .p5 {
+    text-align: justify; 
+    text-indent: 2em; 
+    padding: 0 5.5em;
+}
+
+.content table, th, td {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border: 1px solid #999;
+    padding: 5px 5px;
+    position: relative;
+    left: 70px;
+    text-align: center;
+}
+ 
+.footer {
+    padding: 10px;
+    background-color: grey;
+}
+
+.footer .copyright {
+    text-align: center;
+    font-size: 15px;
+    color: honeydew;
+}
